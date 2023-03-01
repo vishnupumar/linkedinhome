@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Linkedin Feed</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-left">
+            <div class="logo">
+                <i class="logoIcon fa-brands fa-linkedin"></i>
+            </div>
+            <div class="search-bar">
+                <div><i class="fa-solid fa-magnifying-glass searchIcon"></i></div>
+                <div><input type="text" placeholder="Search"></div>
+            </div>
+        </div>
+        <div class="nav-right">
+            <div class="nav-icon">
+                <p><i class="fa-solid fa-house"></i></p>
+                <p class="menu-name">Home</p>
+            </div>
+            <div class="nav-icon"><i class="fa-solid fa-people-group"></i>
+                <div class="menu-name">My Network</div>
+            </div>
+            <div class="nav-icon"><i class="fa-solid fa-bag-shopping"></i>
+                <div class="menu-name">Jobs</div>
+            </div>
+            <div class="nav-icon"><i class="fa-regular fa-message"></i>
+                <div class="menu-name">Messaging</div>
+            </div>
+            <div class="nav-icon"><i class="fa-solid fa-bell"></i>
+                <div class="menu-name">Notifications</div>
+            </div>
+            <div class="nav-icon"><img class="user-profile" src="./images/IMG_20190824_150904.jpg" >
+
+                <div class="menu-name">Me <i class="fa-solid fa-caret-down"></i></div>
+            </div>
+            <div style="height: 50px; width: 1px; background-color: rgb(171, 172, 173);"></div>
+            <div class="nav-icon">
+                <i class="fa-sharp fa-solid fa-ellipsis-vertical"></i>
+                <i class="fa-sharp fa-solid fa-ellipsis-vertical"></i>
+                <i class="fa-sharp fa-solid fa-ellipsis-vertical"></i>
+                <div class="menu-name">Work <i class="fa-solid fa-caret-down"> </i></div>
+            </div>
+            <div class="premium-link">
+                <a href="#">Try Premium for <br> free</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="body-container">
+        <div class="left-content">
+            <div class="left-profile-content leftside-block">
+                <div class="leftside-background-image">
+                    <img src="./images/hand-gd208d9304_1920.jpg" height="80px" width="100%" alt="">
+                </div>
+                <div class="leftside-profile-image">
+                    <img src="./images/IMG_20190824_150904.jpg" height="80" width="30%" alt="">
+                </div>
+                <div class="leftside-profile-name">
+                    <h3 class="leftside-profile-titlename">Vishnu Pumar</h3>
+                    <p class="leftside-profile-titlecontent">Looking for software developer roles</p>
+                </div>
+            <hr>
+                <div class="leftside-profile-content">
+                    <div class="leftsie-profile-connections">
+                        <p class="leftside-profile-titlecontent">Connections</p>
+                        <p class="leftside-profile-number">43</p>
+                    </div>
+                        <p class="leftside-profile-titlename"> Grow your network</p>
+                    <div class="leftsie-profile-connections">
+                        <p class="leftside-profile-titlecontent">Who's viewed your profile</p>
+                        <p class="leftside-profile-number">16</p>
+                    </div>
+                </div>
+            <hr>
+                <div class="lefside-profile-content-2">
+                    <p class="leftside-profile-titlecontent">Access exclusive tools & insights</p>
+                    <p> <a href="#" class="leftside-profile-titlename">Try Premium for free</a></p>
+                </div>
+            <hr>
+                <div class="leftside-profile-content-3">
+                    <p class="leftside-profile-titlename"><i class="fa-solid fa-bookmark"></i> My items</p>
+                </div>
+            </div>
+
+            <div class="left-profile-content leftside-block side-lastblock">
+                <div class="leftside-profile-content">
+                        <div class="leftside-profile-titlename">Recent</div>
+                        <div class="leftside-profile-titlecontent"> <br> <i class="fa-solid fa-hashtag"></i><label for="fa-hashtag"> india</label></div>
+                        <div style="padding: 20px 0 5px 20px;"><a class="leftside-profile-number" style="text-decoration: none;" href="#">Groups</a></div>
+                        <div style="padding: 5px 0 5px 20px;" class="leftsie-profile-connections-1">
+                            <p><a class="leftside-profile-number" style="text-decoration: none;" href="#">Events</a></p>
+                            <p class="leftside-profile-titlename">+</p>
+                        </div>
+                        <div style="padding: 5px 0 10px 20px;"><a class="leftside-profile-number" style="text-decoration: none;" href="#">Followed Hashtags</a></div>
+                        <div class="leftside-profile-titlecontent"> <br> <i class="fa-solid fa-hashtag"></i><label for="fa-hashtag"> india</label></div>
+                        <div style="padding: 10px 0 10px 15px;"> <a href="#" class="leftside-profile-titlename" style="text-decoration: none;">see all</a> </div>
+                </div>
+            <hr>
+                <div class="lefside-profile-content-2">
+                    <p class="leftside-profile-titlecontent centerItems">Discover more</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="middle-content">
+            <div class="middle-search-content middle-block">
+                <div class="middle-profile">
+                    <p><img class="middle-profile-image" src="./images/IMG_20190824_150904.jpg" height="50" width="50" alt=""></p>
+                    <p><button id="post-button">Start a post</button></p>
+                </div>
+                <div class="middle-profile-icons">
+                    <button class="photoIcon">
+                        <p><i class="fa-regular fa-image photoIconColor"></i></p>
+                        <p><span> Photo</span></p>
+                    </button>
+                    <button class="photoIcon">
+                        <p><i class="fa-solid fa-circle-play videoIconColor"></i></p>
+                        <p><span> Video</span></p>
+                    </button>
+                    <button class="photoIcon">
+                        <p><i class="fa-solid fa-calendar-check eventsIconColor"></i></p>
+                        <p><span> Events</span></p>
+                    </button>
+                    <button class="photoIcon">
+                        <p><i class="fa-solid fa-newspaper articleIconColor"></i></p>
+                        <p><span> Write article</span></p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="line-parent">
+                <button class="line-button">
+                    <div class="line-parent" style="width: 82%;"><hr class="line"></div>
+                    <div><span>Sort by:</span>
+                         <span>Top </span>
+                         <span> <i class="fa-solid fa-caret-down"> </i></span>
+                    </div>
+                </button>
+            </div>
+
+            <div class="middle-post-content middle-block">
+                <div class="middle-profile-1">
+                    <div class="middle-post-heading">
+                        <p><img class="middle-profile-image" src="./images/IMG_20190824_150904.jpg" height="50" width="50" alt=""></p>
+                        <p><button id="post-title">
+                            <p class="leftside-profile-titlename" style="font-weight: bolder;">Allu Arjun</p>
+                            <p class="leftside-profile-titlecontent">32k followers</p>
+                            <p class="leftside-profile-titlecontent">1h - <i class="fa-solid fa-earth-asia"></i></p>
+                        </button></p>
+                    </div>
+                    <div class="leftside-profile-titlename"><i class="fa-solid fa-ellipsis"></i></div>
+                </div>
+                <div class="middle-post-description">
+                    <p style="padding:10px 10px 20px 20px;" class="leftside-profile-titlename">Allu Arjun is an Indian actor who works in Telugu films. One of the highest paid actors in India, Arjun is also known for his extraordinary dancing skills.</p>
+                </div>
+                <div class="middle-post-maindata">
+                    <img src="./images/allu arjun.jpg" width="100%" height="500px" alt="">
+                </div>
+                <div class="middle-post-likehare">
+                    <button class="photoIcon-1">
+                        <p><i class="fa-solid fa-thumbs-up likeIcon" ></i></p>
+                        <p><span> Like</span></p>
+                    </button>
+                    <button class="photoIcon-1">
+                        <p><i class="fa-solid fa-comments commentIcon"></i></p>
+                        <p><span> Comments</span></p>
+                    </button>
+                    <button class="photoIcon-1">
+                        <p><i class="fa-solid fa-repeat repostIcon" ></i></p>
+                        <p><span> Repost</span></p>
+                    </button>
+                    <button class="photoIcon-1">
+                        <p><i class="fa-solid fa-paper-plane sendIcon"></i></p>
+                        <p><span> Send</span></p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="middle-post-content middle-block">
+                <div class="middle-profile-1">
+                    <div class="middle-post-heading">
+                        <p><img class="middle-profile-image" src="./images/IMG_20190824_150904.jpg" style="background-size: cover;" height="50" width="50" alt=""></p>
+                        <p><button id="post-title">
+                            <p class="leftside-profile-titlename" style="font-weight: bolder;">Allu Arjun</p>
+                            <p class="leftside-profile-titlecontent">32k followers</p>
+                            <p class="leftside-profile-titlecontent">1h - <i class="fa-solid fa-earth-asia"></i></p>
+                        </button></p>
+                    </div>
+                    <div class="leftside-profile-titlename"><i class="fa-solid fa-ellipsis"></i></div>
+                </div>
+                <div class="middle-post-description">
+                    <p style="padding:10px 10px 20px 20px;" class="leftside-profile-titlename">Allu Arjun is an Indian actor who works in Telugu films. One of the highest paid actors in India, Arjun is also known for his extraordinary dancing skills.</p>
+                </div>
+                <div class="middle-post-maindata">
+                    <img src="./images/siblings-ga6e4661b5_1920.jpg" width="100%" height="500px" alt="">
+                </div>
+                <div class="middle-post-likehare">
+                    <button class="photoIcon-1">
+                        <p><i class="fa-solid fa-thumbs-up likeIcon" ></i></p>
+                        <p><span> Like</span></p>
+                    </button>
+                    <button class="photoIcon-1">
+                        <p><i class="fa-solid fa-comments commentIcon"></i></p>
+                        <p><span> Comments</span></p>
+                    </button>
+                    <button class="photoIcon-1">
+                        <p><i class="fa-solid fa-repeat repostIcon" ></i></p>
+                        <p><span> Repost</span></p>
+                    </button>
+                    <button class="photoIcon-1">
+                        <p><i class="fa-solid fa-paper-plane sendIcon"></i></p>
+                        <p><span> Send</span></p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="middle-post-content middle-block">
+                <div class="middle-profile-1">
+                    <div class="middle-post-heading">
+                        <p><img class="middle-profile-image" src="./images/mani.jpg" style="background-size: cover;" height="50" width="50" alt=""></p>
+                        <p><button id="post-title">
+                            <p class="leftside-profile-titlename" style="font-weight: bolder;">Manikanta Pumar</p>
+                            <p class="leftside-profile-titlecontent">45k followers</p>
+                            <p class="leftside-profile-titlecontent">1h - <i class="fa-solid fa-earth-asia"></i></p>
+                        </button></p>
+                    </div>
+                    <div class="leftside-profile-titlename"><i class="fa-solid fa-ellipsis"></i></div>
+                </div>
+                <div class="middle-post-description">
+                    <p style="padding:10px 10px 20px 20px;" class="leftside-profile-titlename">Allu Arjun is an Indian actor who works in Telugu films. One of the highest paid actors in India, Arjun is also known for his extraordinary dancing skills.</p>
+                </div>
+                <div class="middle-post-maindata">
+                    <img src="./images/flowers-geb3382478_1920.jpg" width="100%" height="500px" alt="">
+                </div>
+                <div class="middle-post-likehare">
+                    <button class="photoIcon-1">
+                        <p><i class="fa-solid fa-thumbs-up likeIcon" ></i></p>
+                        <p><span> Like</span></p>
+                    </button>
+                    <button class="photoIcon-1">
+                        <p><i class="fa-solid fa-comments commentIcon"></i></p>
+                        <p><span> Comments</span></p>
+                    </button>
+                    <button class="photoIcon-1">
+                        <p><i class="fa-solid fa-repeat repostIcon" ></i></p>
+                        <p><span> Repost</span></p>
+                    </button>
+                    <button class="photoIcon-1">
+                        <p><i class="fa-solid fa-paper-plane sendIcon"></i></p>
+                        <p><span> Send</span></p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-content">
+            <div class="right-news-content right-block">
+                <div class="linked-news">
+                    <h4 class="leftside-profile-titlename">Linkedin News</h4>
+                </div>
+                <div class="linkedin-news-content">
+                    <ul>
+                        <li class="leftside-profile-titlename">Buyers fill bags with branded FMCG</li>
+                    </ul>
+                    <p class="leftside-profile-titlecontent">2d ago - 690 readers</p>
+                </div>
+                <div class="linkedin-news-content">
+                    <ul>
+                        <li class="leftside-profile-titlename">Buyers fill bags with branded FMCG</li>
+                    </ul>
+                    <p class="leftside-profile-titlecontent">2d ago - 690 readers</p>
+                </div>
+                <div class="linkedin-news-content">
+                    <ul>
+                        <li class="leftside-profile-titlename">Buyers fill bags with branded FMCG</li>
+                    </ul>
+                    <p class="leftside-profile-titlecontent">2d ago - 690 readers</p>
+                </div>
+                <div class="linkedin-news-content">
+                    <ul>
+                        <li class="leftside-profile-titlename">Buyers fill bags with branded FMCG</li>
+                    </ul>
+                    <p class="leftside-profile-titlecontent">2d ago - 690 readers</p>
+                </div>
+            </div>
+            <div class="right-ads-content right-block side-lastblock">
+                <div class="right-ads-text">
+                    <h2>Your dream job is closer than you think</h2>
+                </div>
+                <div class="right-ads-button">
+                    <button>See jobs</button>
+                </div>
+            </div>
+            <div class="rightside-links">
+                <div class="rightside-about-links">
+                    <a href="#">About</a>
+                    <a href="#">Accessibility</a>
+                    <a href="#">Help Center</a>
+                    <a href="#">Privacy & Terms <i class="fa-solid fa-caret-down"> </i></a>
+                    <a href="#">Ad Choices</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Business Services <i class="fa-solid fa-caret-down"> </i></a>
+                    <br>
+                    <a href="#">Get the Linkedin App</a>
+                </div>
+            </div>
+            <div class="rightside-footer">
+                <span><b>Linked</b></span><p><i class="footer-icon fa-brands fa-linkedin"> </i> </p>
+                <p class="leftside-profile-titlename footer-copyright"> LinkedIn Corporation © 2023</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

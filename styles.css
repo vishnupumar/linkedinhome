@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e4e7e7;
+}
+.nav{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;    
+    height: 52px;
+    position: sticky;
+    top: 0;
+}
+.nav-left{
+    display: flex;
+    gap: 10px;
+    flex-basis: 30%;
+}
+.logo .logoIcon {
+    color:rgb(41, 41, 243);
+    font-size: 35px;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    background-color: #e4e7e7;
+    border-radius: 5px;
+    width: 280px;
+}
+.searchIcon{
+    color: #5a5757;
+    margin-left: 15px;
+}
+.search-bar input{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    background-color: #e4e7e7;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-basis: 55%;
+}
+.premium-link a{
+    color: rgb(179, 157, 36);
+}
+
+.user-profile{
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+.nav-icon{
+    color: #8d8a8a;
+    padding: 5px 15px 8px 15px;
+}
+.nav-icon:hover{
+    color: #000000;
+    cursor: pointer;
+    border-bottom: #000000 solid 2px;
+}
+
+.menu-name{
+    font-size: 15px;
+}
+
+.body-container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    width: 80%;
+    gap: 20px;
+    margin: auto;
+    margin-top:25px
+}
+
+.leftside-block{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d6d2d2;
+}
+.side-lastblock{
+    position: sticky;
+    top: 70px;
+}
+.rightside-about-links a{
+    text-decoration: none;
+    color: #5a5757;
+    padding: 20px 10px;
+}
+.rightside-about-links{
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+.rightside-footer{
+    display: flex;
+
+}
+.rightside-links{
+    position:sticky;
+    top: 280px; 
+    width: 100%;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.middle-content{
+    grid-column: 2/4;
+}
+.middle-block{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d6d2d2;
+}
+
+.right-block{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d6d2d2;
+}
+.right-ads-content{
+    background-image: url(./images/work-g348a1a057_1920.jpg);
+    background-size: cover;
+    color: #fff;
+    background-blend-mode:darken;
+}
+.right-ads-content h2{
+    width: 50%;
+    padding: 10px;
+}
+.right-ads-button button{
+    background-color: rgb(41, 41, 243);
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.right-ads-button{
+    padding: 10px;
+}
+
+.leftside-background-image img{
+    border-radius: 10px 10px 0 0;
+}
+.leftside-profile-image img{
+    border-radius: 50%;
+    position: absolute;
+    top: -45px;
+    border: 2px solid #fff;
+    margin: 0 50% 0px 35%;
+}
+.leftside-profile-image{
+    width: 100%;
+    position: relative;
+}
+
+.leftside-profile-titlecontent{
+    color: #8d8a8a;    
+}
+.leftside-profile-name{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+.leftside-profile-titlename{
+    color:#4d4b4b;
+}
+.leftside-profile-number{
+    color: rgb(62, 110, 241);
+}
+.leftsie-profile-connections{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.leftsie-profile-connections-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftside-profile-content{
+    padding: 10px;
+}
+.lefside-profile-content-2{
+    padding: 10px;
+}
+.leftside-profile-content-3{
+    padding: 10px;
+}
+.centerItems{
+    text-align: center;
+}
+.middle-profile-image{
+    border-radius: 50%;
+}
+.middle-profile{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+.middle-profile-1{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+}
+.photoIconColor{
+    color: rgb(62, 110, 241);
+    font-size: 20px;
+    padding-right: 5px;
+}
+.videoIconColor{
+    color: rgb(12, 138, 28);
+    font-size: 20px;
+    padding-right: 5px;
+}
+.eventsIconColor{
+    color: rgb(170, 102, 25);
+    font-size: 20px;
+    padding-right: 5px;
+}
+.articleIconColor{
+    color: rgb(233, 103, 16);
+    font-size: 20px;
+    padding-right: 5px;
+}
+.photoIcon{
+    background-color: transparent;
+    border-style: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.photoIcon-1{
+    background-color: transparent;
+    border-style: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #4d4b4b;
+}
+.likeIcon{
+    font-size: 20px;
+    padding-right: 5px;
+}
+.commentIcon{
+    font-size: 20px;
+    padding-right: 5px;
+}
+.repostIcon{
+    font-size: 20px;
+    padding-right: 5px;
+}
+.sendIcon{
+    font-size: 20px;
+    padding-right: 5px;
+}
+#post-button{
+    height: 50px;
+    width: 450px;
+    border-radius: 50px;
+    text-align: left;
+    padding-left: 20px;
+    color:#4d4b4b;
+    border: 1px solid #adaaaa;
+    cursor: pointer;
+}
+.middle-profile-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.line-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 10px;
+}
+.middle-post-heading{
+    display: flex;
+}
+#post-title{
+    text-align: left;
+    padding-left: 20px;
+    border: none;
+    background-color: transparent;
+}
+.middle-post-likehare{
+    display: flex;
+    justify-content: space-around;
+}
+.linkedin-news-content{
+    padding: 10px 0 0 30px;
+    font-size: 15px;
+}
+.linked-news{
+    padding: 10px 0 0 10px;
+}
+.right-news-content{
+    padding-bottom: 15px;
+}
+.footer-icon{
+    color: rgb(41, 41, 243);
+    font-size: 18px;
+}
+.rightside-footer b{
+    color: rgb(41, 41, 243);
+    font-size: 15px;
+}
+.rightside-footer{
+    position: sticky;
+    top: 430px;
+}
+.footer-copyright{
+    font-size: 15px;
+    padding: 1px 0 0 1px;
+}
